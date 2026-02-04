@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Notebook",
+    "displayName": "FoodSales_Notebook"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8e90a2d3-ed05-8c3a-4eb6-1e30b6a13ad4"
+  }
+}
