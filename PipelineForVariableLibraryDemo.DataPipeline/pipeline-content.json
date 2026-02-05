@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "8e90a2d3-ed05-8c3a-4eb6-1e30b6a13ad4",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "environment": {
+              "value": {
+                "value": "@pipeline().libraryVariables.FoodSales_VariableLibrary_environment",
+                "type": "Expression"
+              },
+              "type": "string"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Run Notebook",
+        "dependsOn": []
+      }
+    ],
+    "libraryVariables": {
+      "FoodSales_VariableLibrary_environment": {
+        "type": "String",
+        "variableName": "environment",
+        "libraryName": "FoodSales_VariableLibrary"
+      }
+    }
+  }
+}

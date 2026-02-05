@@ -9,11 +9,21 @@
 # META   "dependencies": {}
 # META }
 
+# PARAMETERS CELL ********************
+
+environment = "NO_PARAMETER_PASSED"
+
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
 # CELL ********************
 
-# Welcome to your new notebook
-# Type here in the cell editor to add code!
-
+print(f"Environment: {environment}")
 
 # METADATA ********************
 
