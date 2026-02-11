@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "target_connection",
+      "note": "",
+      "type": "String",
+      "value": "storageaccount+container"
+    },
+    {
+      "name": "target_location",
+      "note": "",
+      "type": "String",
+      "value": "storageaccount_url"
+    }
+  ]
+}
