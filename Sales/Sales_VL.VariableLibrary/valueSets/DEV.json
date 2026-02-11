@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/valueSet/1.0.0/schema.json",
+  "name": "DEV",
+  "variableOverrides": [
+    {
+      "name": "target_connection",
+      "value": "vmspdatalake001raw admin"
+    },
+    {
+      "name": "target_location",
+      "value": "https://vmspdatalake001.dfs.core.windows.net"
+    }
+  ]
+}
