@@ -12,6 +12,30 @@
       "note": "",
       "type": "String",
       "value": "storageaccount_url"
+    },
+    {
+      "name": "lakehouse_name",
+      "note": "",
+      "type": "String",
+      "value": "Sales_LH"
+    },
+    {
+      "name": "lakehouse_id",
+      "note": "",
+      "type": "String",
+      "value": "9b9d36c8-5e00-49d1-b2ed-d2ba9fc430ff"
+    },
+    {
+      "name": "workspace_name",
+      "note": "",
+      "type": "String",
+      "value": "FoodSalesWS_DEV"
+    },
+    {
+      "name": "workspace_id",
+      "note": "",
+      "type": "String",
+      "value": "a08cdefc-c8c2-47db-b151-61a21af1b059"
     }
   ]
 }

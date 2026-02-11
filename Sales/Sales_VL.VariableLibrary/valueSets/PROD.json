@@ -3,12 +3,12 @@
   "name": "PROD",
   "variableOverrides": [
     {
-      "name": "target_connection",
-      "value": "vmspdatalake001prd admin"
-    },
-    {
       "name": "target_location",
       "value": "https://vmspdatalake001prd.dfs.core.windows.net"
+    },
+    {
+      "name": "target_connection",
+      "value": "vmspdatalake001prdraw admin"
     }
   ]
 }

@@ -3,12 +3,12 @@
   "name": "DEV",
   "variableOverrides": [
     {
-      "name": "target_connection",
-      "value": "vmspdatalake001raw admin"
-    },
-    {
       "name": "target_location",
       "value": "https://vmspdatalake001.dfs.core.windows.net"
+    },
+    {
+      "name": "target_connection",
+      "value": "vmspdatalake001raw admin"
     }
   ]
 }
